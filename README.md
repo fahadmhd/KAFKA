@@ -11,7 +11,7 @@ Three most important properties which are necessary are listed below.
 
 **value.serializer**: It is a type of Serializer class which implements the org.apache.kafka.common.serialization.Serializer interface.
 Kafka consumer:
-#############################################################################################################################
+###############################################################
 To create a **KAFKA Consumer**, you have to create a Java Class, lets say ConsumerDemo.java. Then we need to define the consumer properties.
 Then create a consumer,subscribe the consumer to a specific topic. Finally create a Poll loop to receive data.
 Follow the link below to read more about the properties of consumer which one can set.
