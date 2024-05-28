@@ -1,5 +1,6 @@
 # Apache Kafka is an event streaming platform. 
-###KAFKA Producer###
+##KAFKA Producer##
+
 To create a **KAFKA Producer**, you have to create a Java Class, lets say Producer.java . Then We need to define producer properties. 
 Then create the producer and Create a producer record. Once they are ready, send the data
 Follow the link below to read more about the properties of producer which one can set.
@@ -14,7 +15,9 @@ Three most important properties which are necessary are listed below.
 **value.serializer**: It is a type of Serializer class which implements the org.apache.kafka.common.serialization.Serializer interface.
 Kafka consumer:
 ...................................................................................................
-###KAFKA Consumer###
+
+##KAFKA Consumer##
+
 To create a **KAFKA Consumer**, you have to create a Java Class, lets say ConsumerDemo.java. Then we need to define the consumer properties.
 Then create a consumer,subscribe the consumer to a specific topic. Finally create a Poll loop to receive data.
 Follow the link below to read more about the properties of consumer which one can set.
