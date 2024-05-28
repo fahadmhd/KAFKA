@@ -4,6 +4,7 @@ Follow the link below to read more about the properties of producer which one ca
 https://kafka.apache.org/documentation.
 
 Three most important properties which are necessary are listed below.
+
 **bootstrap.servers**: It is a list of the port pairs which are used for establishing an initial connection to the Kafka cluster. We use the bootstrap servers for making an initial connection to the cluster. This server is present in the host:port, host:port,... form.
 
 **key.serializer**: It is a type of Serializer class of the key that is used to implement the org.apache.kafka.common.serialization.Serializer interface.
