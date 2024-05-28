@@ -20,6 +20,7 @@ https://kafka.apache.org/documentation/#consumerconfigs
 key.deserializer: It is a Deserializer class for the key, which is used to implement the org.apache.kafka.common.serialization.Deserializer interface.
 
 These are some essential properties that are required to implement a consumer.
+
 **value.deserializer**: A Deserializer class for value which implements the org.apache.kafka.common.serialization.Deserializer interface.
 
 **bootstrap.servers**: It is a list of host and port pairs that are used to establish an initial connection with the Kafka cluster. It does not contain a full set of servers that a client requires. Only the servers which are required for bootstrapping are required.
